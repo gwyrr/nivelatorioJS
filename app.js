@@ -32,3 +32,37 @@ console.log(numbers);
 let words = ["hello", "world", "javascript"];
 let wordLengths = words.map((word) => word.length);
 console.log(wordLengths);
+
+const persons = [
+    {
+        firstname: "John",
+        lastName: "Smith",
+    },
+    {
+        firstName: "aura",
+        lastName: "jonas",
+    },
+    {
+        firstName: "keslie",
+        lastName: "simpson",
+    }
+];
+
+// [
+//     "maria paula cañarte",
+//     "gabriela morales",
+//     "emanuel rodas",
+// ]
+
+// function positionName(persons){
+//     let names = persons.map(person => person.firstName + " " + person.lastName);
+//     return names;
+// }
+// let results = positionName(persons)
+
+// console.log(results);
+
+const numeros = [5, 12, 8, 130, 44];
+const hayMayorDeCincuenta = numeros.some(num => num > 50);
+
+console.log(hayMayorDeCincuenta); // true
